@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.continer {
+    width: 1440px;
+    height: 3000px;
+    margin: auto;
+}
+
+.header {
+    width: 1440px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.logo {
+    width: 190px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px 10px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+nav ul li:hover {
+    background-color: rgb(209, 208, 208);
+    padding: 20px 20px;
+    border-radius: 100px;
+}
+
+nav ul li i {
+    margin: 0px 10px;
+}
+
+.menuimg {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+
+/* facility bar */
+.facility-bar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel {
+    display: flex;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    padding: 15px 15px 20px 15px;
+    justify-content: space-between;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.fa-solid {
+    margin-left: 30px;
+}
+
+.hotel:hover {
+
+    background-color: darkgrey;
+    color: white;
+}
+
+.things {
+    display: flex;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    padding: 15px 15px 20px 15px;
+    justify-content: space-between;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+
+.fa-regular {
+    margin-left: 30px;
+}
+
+.things:hover {
+
+    background-color: darkgrey;
+    color: white;
+}
+
+.rental {
+    Display: flex;
+    Border: 1px solid black;
+    Width: 200px;
+    Height: 40px;
+    Font-size: 20px;
+    Padding: 15px 15px 20px 15px;
+    Justify-content: space-between;
+    Font-weight: 600;
+    Border-radius: 15px;
+    Cursor: pointer;
+    Transition: all .5s;
+}
+
+.fa-solid {
+    Margin-left: 30px;
+}
+
+.rental:hover {
+    Background-color: darkgrey;
+    Color: white;
+}
+
+.resturant {
+    Display: flex;
+    Border: 1px solid black;
+    Width: 200px;
+    Height: 40px;
+    Font-size: 20px;
+
+    Padding: 15px 15px 20px 15px;
+    Justify-content: space-between;
+    Font-weight: 600;
+    Border-radius: 15px;
+    Cursor: pointer;
+    Transition: all .5s;
+}
+
+.fa-solid {
+    Margin-left: 30px;
+}
+
+.resturant:hover {
+    Background-color: darkgrey;
+    Color: white;
+}
+
+.travelform {
+    Display: flex;
+    Border: 1px solid black;
+    Width: 200px;
+    Height: 40px;
+    Font-size: 20px;
+    Padding: 15px 15px 20px 15px;
+    Justify-content: space-between;
+    Font-weight: 600;
+    Border-radius: 15px;
+    Cursor: pointer;
+    Transition: all .5s;
+
+}
+
+.fa-brands {
+    Margin-left: 30px;
+}
+
+.travelform:hover {
+    Background-color: darkgrey;
+    Color: white;
+}
+
+.more {
+    Display: flex;
+    Border: 1px solid black;
+    Width: 200px;
+    Height: 40px;
+    Font-size: 20px;
+    Padding: 15px 15px 20px 15px;
+    Justify-content: space-between;
+    Font-weight: 600;
+    Border-radius: 15px;
+    Cursor: pointer;
+    Transition: all .5s;
+}
+
+.fa-solid {
+    Margin-left: 30px;
+}
+
+.more:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+/* hero */
+.hero {
+    background-image: url(images/hero1.jpg);
+    height: 600px;
+    
+    margin-top: 50px;
+    
+}
+
+.searchbar .input {
+    border: 0;
+    outline: none;
+}
+
+.searchbar {
+    width: 700px;
+    margin: 30px auto;
+    padding-top: 250px;
+
+}
+
+.searchbar .search-box {
+    Position: relative;
+    Width: 600px;
+    Height: 70px;
+}
+
+.searchbar .search-box .input {
+    Position: absolute;
+    Top: 0;
+    Left: 0;
+    Width: 100%;
+    Height: 100%;
+    Padding: 10px 50px;
+    Font-size: 20px;
+    Border-radius: 100px;
+}
+
+.searchbar .search-box .btn {
+    Position: absolute;
+    Top: 0;
+    Right: 0;
+    Width: 60px;
+    Height: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.searchbar .search-box .btn.btn1 .fa-solid {
+    Position: absolute;
+
+    Top: 50%;
+    Right: 50%;
+    Color: black;
+    Transform: translate(-505, -50%);
+    Font-size: 20px;
+}
+
+.searchbar .search-box .btn {
+    Left: 0;
+    Padding-left: 15px;
+}
+
+/* explore */
+
+.explore {
+    Width: 1380px;
+    Height: 600px;
+    Background-image: url(images/explore.jpg);
+    Background-position: center;
+    Background-size: cover;
+    Margin-top: 70px;
+    Padding: 0px 30px;
+    Position: absolute;
+}
+
+.explore h1 {
+    Color: white;
+    Font-size: 55px;
+    Margin-top: 350px;
+
+}
+
+.explore h4 {
+    Font-size: 30px;
+    Color: white;
+}
+
+.explore .button {
+    Padding: 15px 25px;
+    Font-size: 20px;
+    Font-weight: 500;
+    Border-radius: 50px;
+    Border: none;
+    Margin-top: 15px;
+    Transition: all .3s;
+    Cursor: pointer;
+}
+
+.explore .button:hover {
+    Background-color: black;
+    Color: white;
+}
+
+/* spots */
+
+.spots {
+    Width: 1440px;
+    Height: 600px;
+    Margin-top: 730px;
+
+}
+
+.spots h1 {
+    Padding-bottom: 10px;
+}
+
+.spots p {
+    Font-size: 20px;
+    Font-weight: 500;
+}
+
+.spotboxes {
+    Margin-top: 30px;
+    Display: flex;
+    Justify-content: space-between;
+}
+
+.spotbox1 {
+    Width: 330px;
+    Height: 300px;
+    Border: 1px solid black;
+    Background-image: url(images/spot1.jpg);
+    Background-position: center;
+    Background-size: cover;
+    Padding-left: 10px;
+    Cursor: pointer;
+    Border: none;
+}
+
+.spotbox1 h1 {
+    Color: white;
+    Margin-top: 230px;
+    Font-size: 40px;
+}
+
+.spotbox1:hover {
+    opacity: .8;
+}
+
+.spotbox2 {
+    Width: 330px;
+    Height: 300px;
+    Border: 1px solid black;
+    Background-image: url(images/spot2.jpg);
+    Background-position: center;
+    Background-size: cover;
+
+    Padding-left: 10px;
+    Cursor: pointer;
+    Border: none;
+}
+
+.spotbox2 h1 {
+    Color: white;
+    Margin-top: 230px;
+    Font-size: 40px;
+}
+
+.spotbox2:hover {
+    Opacity: .8;
+}
+
+.spotbox3 {
+    Width: 330px;
+    Height: 300px;
+    Border: 1px solid black;
+    Background-image: url(images/spot3.jpg);
+    Background-position: center;
+    Background-size: cover;
+    Padding-left: 10px;
+    Cursor: pointer;
+    Border: none;
+}
+
+.spotbox3 h1 {
+    Color: white;
+
+    Margin-top: 230px;
+    Font-size: 40px;
+}
+
+.spotbox3:hover {
+    Opacity: .8;
+}
+
+.spotbox4 {
+    Width: 330px;
+    Height: 300px;
+    Border: 1px solid black;
+    Background-image: url(images/spot4.jpg);
+    Background-position: center;
+    Background-size: cover;
+    Padding-left: 10px;
+    Cursor: pointer;
+    Border: none;
+}
+
+.spotbox4 h1 {
+    Color: white;
+    Margin-top: 190px;
+    Font-size: 40px;
+}
+
+.spotbox4:hover {
+    Opacity: .8;
+}
+
